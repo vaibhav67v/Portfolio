@@ -18,6 +18,7 @@ lt: light theme
     --dt-bg-gradient: linear-gradient(90.1deg, rgb(14 14 14) 14.5%, rgb(74, 74, 74) 135.4%);
     --dt-font-color: white;
     --dt-navbar-color: rgba(0, 0, 0, 0.6);
+    --dt-bg-color: #80808041;
 
     /* for navigating */
     --scroll-margin-top: 4em;
@@ -69,14 +70,15 @@ nav ul {
 main {
     display: flex;
     flex-direction: column;
-    gap: 12em;
+    align-items: center;
+    gap: 11em;
     margin: 3em;
     flex-grow: 1;
     width: 85vw;
 }
 
 /* >>>>>>>> HOME <<<<<<<< */
-.home {
+.home-section {
     margin-top: 12em;
     scroll-margin-top: 15em;
 }
@@ -122,7 +124,7 @@ main {
 
 
 /* >>>>>>>> ABOUT ME <<<<<<<< */
-.about-me {
+.about-me-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +135,7 @@ main {
 .heading {
     font-size: 3.2em;
     font-weight: bold;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
 }
 
 .about-me-text {
@@ -203,6 +205,10 @@ main {
     align-items: center;
 }
 
+.downloads-btns a {
+    text-decoration: none;
+}
+
 .downloads-btns button {
     font-size: 0.8em;
     width: 5em;
@@ -220,10 +226,133 @@ main {
 
 
 /* >>>>>>>> PROJECTS <<<<<<<< */
+.projects-section {
+    scroll-margin-top: var(--scroll-margin-top);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.projects-container {
+    /* background-color: chocolate; */
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
+    column-gap: 2.5rem;
+    row-gap: 1.5rem;
+    padding: 2rem;
+}
+
+.project {
+    background-color: var(--dt-bg-color);
+    border-radius: 0.5rem;
+    height: 10vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-projects-container a {
+    color: var(--dt-font-color);
+}
+
+
 /* >>>>>>>> CONTACT <<<<<<<< */
+.contact-section {
+    scroll-margin-top: var(--scroll-margin-top);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12rem;
+}
+
+.contact-form-container {
+    background-color: var(--dt-bg-color);
+    padding: 0.8rem;
+    margin-top: 2rem;
+    height: 20vw;
+    width: 28vw;
+    border-radius: .8rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+
+.contact-form-input {
+    --input-width: 60%;
+    --input-border-radius: 0.3rem;
+    --input-padding: 0.3rem;
+    --input-bg-color:#666666cc;
+    --input-placeholder-color: #d2d2d2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form-input input,
+.contact-form-input textarea {
+    width: var(--input-width);
+    border-radius: var(--input-border-radius);
+    padding: var(--input-padding);
+    background-color: var(--input-bg-color);
+    color: var(--dt-font-color);
+    border:none;
+    outline: none;
+}
+
+.contact-form-input textarea {
+    height: 6rem;
+    resize: none;
+}
+
+.contact-form-input input::placeholder,
+.contact-form-input textarea::placeholder {
+    color: var(--input-placeholder-color);
+}
+
+.contact-form-button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: .2rem;
+    width: 20%;
+    font-size: 1.2rem;
+    background-color: var(--dt-accent-color);
+}
+
+.contact-form-button:hover {
+    background-color: var(--dt-accent-active-color);
+    cursor: pointer;
+}
+
+.social-links-container {
+    margin-top: 2rem;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-links-icon{
+    fill: var(--dt-font-color);
+}
+
 
 /* --------------------Footer section------------------- */
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
