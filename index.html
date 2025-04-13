@@ -1,269 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vaibhav-ThePrgrammer</title>
-    <link rel="icon" type="image/x-icon" href="/Images/logo.jpg" />
-    <link rel="stylesheet" href="style.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vaibhav-ThePrgrammer</title>
+        <link rel="icon" type="image/x-icon" href="/Images/logo.jpg" />
+        <link rel="stylesheet" href="style.css" />
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
 
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="portfolio-container">
-      <header>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#home-section">Home</a></li>
-            <li><a href="#about-me-section">About Me</a></li>
-            <li><a href="#projects-section">Projects</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="portfolio-container">
+            <header>
+                <nav>
+                    <div class="nav-name">Vaibhav</div>
 
-      <main>
-        <section class="home-section" id="home-section">
-          <div class="intro-container">
-            <div class="intro">
-              <h1 class="name">Vaibhav</h1>
-              <div class="whoami">The Programmer</div>
-              <div class="punchline">Frontend Developer in the Making</div>
-              <div class="intro-text">
-                Crafting clean, responsive, and user-friendly web experiences
-                with HTML, CSS, and JavaScript. Turning ideas into interactive
-                and engaging websites. Passionate about coding, problem-solving,
-                and creating intuitive designs.
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="Images/myImg.jpg" alt="My Profile Picture" />
-            </div>
-          </div>
-        </section>
+                    <ul class="normal-tabs">
+                        <li class="hide"><a href="#home-section">Home</a></li>
+                        <li class="hide">
+                            <a href="#about-me-section">About Me</a>
+                        </li>
+                        <li class="hide">
+                            <a href="#projects-section">Projects</a>
+                        </li>
+                        <li class="hide">
+                            <a href="#contact-section">Contact</a>
+                        </li>
+                        <li>
+                            <svg
+                                class="open-menu-btn"
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="24px"
+                                viewBox="0 -960 960 960"
+                                width="24px"
+                                fill="#e3e3e3"
+                            >
+                                <path
+                                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                                />
+                            </svg>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <ul class="sidebar">
+                <li>
+                    <svg
+                        class="close-menu-btn"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24px"
+                        viewBox="0 -960 960 960"
+                        width="24px"
+                        fill="#e3e3e3"
+                    >
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                        />
+                    </svg>
+                </li>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-me-section">About Me</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
 
-        <section class="about-me-section" id="about-me-section">
-          <div class="heading">About Me</div>
-          <div class="about-me-text">
-            Hey, I'm Vaibhav Vishwakarma! I'm currently pursuing B.Tech. in ECE
-            and exploring the world of coding and development. I enjoy solving
-            problems, building things from scratch, and learning new skills
-            along the way. When I'm not coding, you’ll probably find me playing
-            my guitar or lost in a good book.
-          </div>
-          <div class="skill-heading">Skills</div>
-          <div class="skill-section">
-            <div class="languages">
-              <div class="skill-section-heading">Languages</div>
-              <ul>
-                <li>C, C++</li>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-            <div class="frameworks-tools">
-              <div class="skill-section-heading">Frameworks/Tools</div>
-              <ul>
-                <li>Tailwind CSS</li>
-                <li>React</li>
-                <li>Git & GitHub</li>
-              </ul>
-            </div>
-            <div class="core-skills">
-              <div class="skill-section-heading">Core Skills</div>
-              <ul>
-                <li>DSA</li>
-                <li>Problem solving</li>
-                <li>Communication</li>
-              </ul>
-            </div>
-          </div>
-          <div class="downloads-section">
-            <div class="downloads-text">Downloads</div>
-            <div class="downloads-btns">
-              <a href="Documents/myResume.pdf" download="myResume.pdf">
-                <button>Resume</button>
-              </a>
-              <a href="Documents/myCV.pdf" download="myCV.pdf">
-                <button>CV</button>
-              </a>
-            </div>
-          </div>
-        </section>
+            <main>
+                <section class="home-section" id="home-section">
+                    <div class="intro-container">
+                        <div class="intro">
+                            <h1 class="name">Vaibhav</h1>
+                            <div class="whoami">The Programmer</div>
+                            <div class="punchline">
+                                Frontend Developer in the Making
+                            </div>
+                            <div class="intro-text">
+                                Crafting clean, responsive, and user-friendly
+                                web experiences with HTML, CSS, and JavaScript.
+                                Turning ideas into interactive and engaging
+                                websites. Passionate about coding,
+                                problem-solving, and creating intuitive designs.
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img
+                                src="Images/myImg.jpg"
+                                alt="My Profile Picture"
+                            />
+                        </div>
+                    </div>
+                </section>
 
-        <section class="projects-section" id="projects-section">
-          <div class="heading">Projects</div>
-          <div class="projects-container">
-            <div class="project" id="project1">Project</div>
-            <div class="project" id="project2">Project</div>
-            <div class="project" id="project3">Project</div>
-            <div class="project" id="project4">Project</div>
-          </div>
-          <div class="mini-projects-container">
-            Check out my mini-projects
-            <a href="https://github.com/vaibhav67v/WebDev-Mini-Projects">here</a
-            >.
-          </div>
-        </section>
+                <section class="about-me-section" id="about-me-section">
+                    <div class="heading">About Me</div>
 
-        <section class="contact-section" id="contact-section">
-          <div class="heading">Contact Me</div>
-          <p class="contact-intro">
-            Feel free to reach out for collaboration, queries, or just to say
-            hi!
-          </p>
-          <div class="contact-form-container">
-            <form
-              class="contact-form"
-              action="https://formspree.io/f/mdkelwpo"
-              method="post"
-              class="contact-form"
-            >
-              <div class="contact-form-name contact-form-input">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Enter your name"
-                />
-              </div>
-              <div class="contact-form-email contact-form-input">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter your email"
-                />
-              </div>
-              <div class="contact-form-message contact-form-input">
-                <label for="message">Message</label>
-                <textarea
-                  id="story"
-                  name="story"
-                  placeholder="Enter message"
-                  autocomplete="off"
-                ></textarea>
-              </div>
+                    <div class="about-me-text">
+                        Hey, I'm Vaibhav Vishwakarma! I'm currently pursuing
+                        B.Tech. in ECE and exploring the world of coding and
+                        development. I enjoy solving problems, building things
+                        from scratch, and learning new skills along the way.
+                        When I'm not coding, you'll probably find me playing my
+                        guitar or lost in a good book.
+                    </div>
 
-              <button class="contact-form-button">Send</button>
-            </form>
-          </div>
-          <div class="social-links-container">
-            <!-- mail -->
-            <a href="mailto:vishwakarmavaibhav2002@gmail.com" target="_blank">
-              <svg
-                class="social-links-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="37"
-                height="37"
-                viewBox="0 0 37 37"
-              >
-                <path
-                  d="M8.4091 32.3819H2.52272C1.13102 32.3819 0 31.2551 0 29.8592V8.41626C0 5.29648 3.55704 3.51795 6.05454 5.38898L18.5 14.7229L30.9454 5.38898C33.4388 3.51795 37 5.29648 37 8.41626V29.8592C37 31.251 35.8732 32.3819 34.4772 32.3819H28.5908V18.0865L18.5 25.6547L8.40911 18.0865L8.4091 32.3819Z"
-                />
-              </svg>
-            </a>
+                    <div class="skill-section-heading">Skills</div>
 
-            <!-- leetcode -->
-            <a href="https://leetcode.com/u/vaibhav21v/" target="_blank">
-              <svg
-                class="social-links-icon"
-                width="38"
-                height="38"
-                viewBox="0 0 38 38"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25.4948 28.389L21.2245 32.5167C20.4867 33.2561 19.4654 33.5649 18.3381 33.5649C17.2108 33.5649 16.1895 33.2561 15.4501 32.5167L8.59109 25.6086C7.85167 24.8692 7.47959 23.7878 7.47959 22.6589C7.47959 21.53 7.85167 20.5103 8.59109 19.7709L15.4295 12.8359C16.1689 12.0965 17.2108 11.8146 18.3381 11.8146C19.4654 11.8146 20.4867 12.1234 21.2245 12.8628L25.4948 16.989C26.3086 17.8044 27.656 17.7759 28.5031 16.9288C29.3502 16.0801 29.3787 14.7327 28.5648 13.9189L24.4339 9.74522C23.3673 8.69081 22.0259 7.9573 20.5627 7.62831L24.4688 3.66522C25.2858 2.85139 25.2573 1.50239 24.4102 0.655308C23.5631 -0.191775 22.2141 -0.218692 21.3987 0.595141L5.407 16.5884C3.85375 18.1432 3.0415 20.2886 3.0415 22.6605C3.0415 25.0323 3.85375 27.2442 5.407 28.7959L12.2898 35.7008C13.843 37.2509 15.99 37.9998 18.3603 37.9998C20.7305 37.9998 22.8775 37.1891 24.4323 35.6343L28.5633 31.4591C29.3771 30.6452 29.3486 29.2978 28.5015 28.4507C27.6544 27.6036 26.307 27.5751 25.4948 28.389ZM32.9507 20.599H16.8878C15.7763 20.599 14.8769 21.5553 14.8769 22.7301C14.8769 23.905 15.7763 24.8613 16.8878 24.8613H32.9507C34.0606 24.8613 34.9615 23.905 34.9615 22.7301C34.9615 21.5553 34.0606 20.599 32.9507 20.599Z"
-                />
-              </svg>
-            </a>
+                    <div class="skill-section">
+                        <div class="skill-box languages-skills">
+                            <div class="skill-type-heading">Languages</div>
+                            <ul>
+                                <li>C, C++</li>
+                                <li>HTML & CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
 
-            <!-- github -->
-            <a href="https://github.com/vaibhav67v" target="_blank">
-              <svg
-                class="social-links-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                viewBox="0 0 40 40"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M20.0138 3.61133C10.7899 3.61133 3.33325 11.1229 3.33325 20.4158C3.33325 27.8439 8.11095 34.1318 14.7389 36.3573C15.5676 36.5246 15.8711 35.9958 15.8711 35.5508C15.8711 35.1613 15.8438 33.8259 15.8438 32.4346C11.2037 33.4363 10.2374 30.4314 10.2374 30.4314C9.49172 28.4838 8.38683 27.9833 8.38683 27.9833C6.86812 26.9538 8.49745 26.9538 8.49745 26.9538C10.1821 27.0651 11.0661 28.6788 11.0661 28.6788C12.5571 31.2381 14.9598 30.5149 15.9264 30.0698C16.0643 28.9848 16.5065 28.2336 16.9759 27.8163C13.2752 27.4268 9.38144 25.9801 9.38144 19.5253C9.38144 17.6889 10.0438 16.1867 11.0934 15.0183C10.9278 14.6011 10.3477 12.8758 11.2593 10.5667C11.2593 10.5667 12.6677 10.1215 15.8434 12.2916C17.2031 11.9238 18.6053 11.7367 20.0138 11.7351C21.4221 11.7351 22.8579 11.93 24.1836 12.2916C27.3598 10.1215 28.7681 10.5667 28.7681 10.5667C29.6798 12.8758 29.0993 14.6011 28.9338 15.0183C30.0109 16.1867 30.6459 17.6889 30.6459 19.5253C30.6459 25.9801 26.7523 27.3988 23.0238 27.8163C23.6316 28.3448 24.1559 29.3463 24.1559 30.9323C24.1559 33.1858 24.1288 34.9943 24.1288 35.5504C24.1288 35.9958 24.4326 36.5246 25.2609 36.3576C31.8888 34.1314 36.6666 27.8439 36.6666 20.4158C36.6938 11.1229 29.2099 3.61133 20.0138 3.61133Z"
-                />
-              </svg>
-            </a>
+                        <div class="divider hide"></div>
 
-            <!-- linkedin -->
-            <a href="https://www.linkedin.com/in/vaibhav67v" target="_blank">
-              <svg
-                class="social-links-icon"
-                width="34"
-                height="34"
-                viewBox="0 0 34 34"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M34 2.5V31.5001C34 32.1631 33.7367 32.7989 33.2677 33.2677C32.7989 33.7367 32.1631 34 31.5001 34H2.5C1.83696 34 1.20107 33.7367 0.732228 33.2677C0.263387 32.7989 0 32.1631 0 31.5001V2.5C0 1.83696 0.263387 1.20107 0.732228 0.732228C1.20107 0.263387 1.83696 0 2.5 0H31.5001C32.1631 0 32.7989 0.263387 33.2677 0.732228C33.7367 1.20107 34 1.83696 34 2.5ZM10 13H5V28.9999H10V13ZM10.45 7.5C10.4526 7.12179 10.3807 6.74677 10.2384 6.39634C10.0961 6.04592 9.8862 5.72694 9.62064 5.45766C9.35506 5.18836 9.03903 4.97401 8.69061 4.82687C8.3422 4.6797 7.9682 4.60262 7.59001 4.59999H7.5C6.73087 4.59999 5.99324 4.90554 5.44939 5.44939C4.90554 5.99324 4.59999 6.73087 4.59999 7.5C4.59999 8.26912 4.90554 9.00675 5.44939 9.55062C5.99324 10.0945 6.73087 10.4 7.5 10.4C7.87823 10.4093 8.2546 10.344 8.60759 10.2078C8.96057 10.0716 9.28327 9.86718 9.55721 9.60623C9.83117 9.34526 10.051 9.03289 10.2042 8.68694C10.3574 8.34099 10.4409 7.96824 10.45 7.59001V7.5ZM28.9999 19.2801C28.9999 14.47 25.9399 12.6 22.8999 12.6C21.9047 12.5502 20.9136 12.7622 20.0258 13.2149C19.1378 13.6676 18.3842 14.3452 17.84 15.1801H17.7V13H13V28.9999H18V20.4899C17.9276 19.6184 18.2023 18.7535 18.764 18.0833C19.3258 17.4129 20.1293 16.9913 20.9999 16.9101H21.1899C22.78 16.9101 23.96 17.9101 23.96 20.43V28.9999H28.9601L28.9999 19.2801Z"
-                />
-              </svg>
-            </a>
+                        <div class="skill-box frameworks-tools-skills">
+                            <div class="skill-type-heading">
+                                Frameworks/Tools
+                            </div>
+                            <ul>
+                                <li>Tailwind CSS</li>
+                                <li>React</li>
+                                <li>Git & GitHub</li>
+                            </ul>
+                        </div>
 
-            <!-- insta -->
-            <a href="https://www.instagram.com/vaibhav_v2.5/" target="_blank">
-              <svg
-                class="social-links-icon"
-                width="35"
-                height="35"
-                viewBox="0 0 35 35"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_27_20)">
-                  <path
-                    d="M26.8264 10.2407C25.6675 10.243 24.7251 9.30455 24.7229 8.14558C24.7206 6.98662 25.659 6.04426 26.8185 6.042C27.9779 6.03972 28.9203 6.97867 28.9226 8.13765C28.9244 9.29662 27.9859 10.2384 26.8264 10.2407Z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M17.5167 26.4849C12.5549 26.4946 8.52405 22.4802 8.51442 17.5172C8.50477 12.5553 12.5203 8.52382 17.4822 8.51418C22.445 8.50454 26.4764 12.5212 26.486 17.4825C26.4957 22.4456 22.4791 26.4753 17.5167 26.4849ZM17.4883 11.6673C14.2678 11.673 11.6607 14.2897 11.6664 17.5109C11.6726 20.7327 14.2899 23.3392 17.5104 23.3329C20.7322 23.3268 23.3393 20.7105 23.333 17.4888C23.3267 14.267 20.7094 11.6611 17.4883 11.6673Z"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M6.00717 0.942782C7.1185 0.507319 8.39027 0.20907 10.2523 0.121185C12.1189 0.0316059 12.7148 0.0111869 17.4663 0.00211841C22.2189 -0.00695009 22.8148 0.0111834 24.6814 0.0939654C26.544 0.174479 27.8164 0.468196 28.93 0.899127C30.0821 1.34309 31.0596 1.94072 32.0337 2.91088C33.0078 3.88216 33.6077 4.85628 34.0573 6.00673C34.4922 7.1192 34.7904 8.38988 34.879 10.2531C34.9673 12.1191 34.9889 12.7144 34.998 17.4666C35.007 22.2181 34.9878 22.8146 34.9061 24.6823C34.825 26.5437 34.5319 27.8167 34.1009 28.9297C33.6559 30.0819 33.0594 31.0594 32.0892 32.0336C31.1191 33.0082 30.1439 33.6076 28.9934 34.0578C27.881 34.4921 26.6104 34.7903 24.7482 34.8794C22.8817 34.9678 22.2858 34.9888 17.5327 34.9978C12.7817 35.007 12.1858 34.9888 10.3192 34.9065C8.45661 34.825 7.18371 34.5317 6.07068 34.1014C4.91854 33.6557 3.94103 33.0598 2.96692 32.0892C1.99224 31.1184 1.39181 30.1437 0.942751 28.9933C0.507293 27.8813 0.210156 26.6101 0.121148 24.7486C0.0321357 22.8814 0.0111636 22.2849 0.00209863 17.5334C-0.00700137 12.7813 0.0117201 12.186 0.0933577 10.3194C0.175583 8.45622 0.467596 7.18384 0.898523 6.06967C1.3436 4.91807 1.94009 3.94112 2.91137 2.96644C3.8815 1.99232 4.85673 1.39127 6.00717 0.942782ZM7.20641 31.1615C7.82387 31.3991 8.75034 31.6826 10.4565 31.7568C12.3026 31.8367 12.8554 31.8544 17.527 31.8453C22.2002 31.8367 22.7531 31.8169 24.5986 31.7303C26.3029 31.649 27.2294 31.3622 27.8453 31.1219C28.6622 30.8026 29.2441 30.421 29.8553 29.8092C30.4665 29.1951 30.8446 28.6116 31.1611 27.7945C31.3992 27.1766 31.6821 26.2494 31.7564 24.5433C31.8375 22.6984 31.8545 22.1449 31.8453 17.4721C31.8369 12.8006 31.817 12.2472 31.7293 10.4016C31.6486 8.69661 31.3623 7.77012 31.1214 7.15492C30.8022 6.33674 30.4217 5.75611 29.8082 5.14431C29.1947 4.53251 28.6112 4.15545 27.7931 3.83906C27.1768 3.60035 26.2491 3.31797 24.5442 3.24371C22.6979 3.16261 22.1446 3.14616 17.472 3.15525C12.8004 3.16432 12.2476 3.18302 10.402 3.27036C8.69648 3.35142 7.77112 3.63777 7.15422 3.87876C6.33773 4.19797 5.75598 4.5773 5.14421 5.19137C4.53354 5.80544 4.15535 6.38776 3.83898 7.20651C3.60198 7.82343 3.31675 8.75105 3.24363 10.4561C3.1631 12.3022 3.14611 12.8556 3.15518 17.5273C3.16369 22.1999 3.18351 22.7534 3.27028 24.5979C3.35021 26.304 3.6388 27.2293 3.87867 27.8467C4.19789 28.6627 4.57835 29.2444 5.19127 29.8563C5.80535 30.4657 6.38878 30.8451 7.20641 31.1615Z"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_27_20">
-                    <rect width="35" height="35" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-          </div>
-        </section>
-      </main>
+                        <div class="divider hide"></div>
 
-      <footer>
-        <div class="copyright-msg">
-          &copy; 2025 Vaibhav Vishwakarma. All rights reserved.
+                        <div class="skill-box core-skills-skills">
+                            <div class="skill-type-heading">Core Skills</div>
+                            <ul>
+                                <li>DSA</li>
+                                <li>Problem solving</li>
+                                <li>Communication</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="downloads-section">
+                        <div class="downloads-text">Downloads</div>
+                        <div class="downloads-btns">
+                            <a
+                                href="Documents/myResume.pdf"
+                                download="myResume.pdf"
+                            >
+                                <button>Resume</button>
+                            </a>
+                            <a href="Documents/myCV.pdf" download="myCV.pdf">
+                                <button>CV</button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects-section" id="projects-section">
+                    <div class="heading">Projects</div>
+                    <div class="projects-container">
+                        <div class="project" id="project1">Project</div>
+                        <div class="project" id="project2">Project</div>
+                        <div class="project" id="project3">Project</div>
+                        <div class="project" id="project4">Project</div>
+                    </div>
+                    <div class="mini-projects-container">
+                        Check out my mini-projects
+                        <a
+                            href="https://github.com/vaibhav67v/WebDev-Mini-Projects"
+                            >here</a
+                        >.
+                    </div>
+                </section>
+
+                <section class="contact-section" id="contact-section">
+                    <div class="heading">Contact Me</div>
+                    <p class="contact-intro">
+                        Feel free to reach out for collaboration, queries, or
+                        just to say hi!
+                    </p>
+                    <div class="contact-form-container">
+                        <form
+                            class="contact-form"
+                            action="https://formspree.io/f/mdkelwpo"
+                            method="post"
+                            class="contact-form"
+                        >
+                            <div class="contact-form-name contact-form-input">
+                                <label for="name">Name</label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Enter your name"
+                                />
+                            </div>
+                            <div class="contact-form-email contact-form-input">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Enter your email"
+                                />
+                            </div>
+                            <div
+                                class="contact-form-message contact-form-input"
+                            >
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="story"
+                                    name="story"
+                                    placeholder="Enter message"
+                                    autocomplete="off"
+                                ></textarea>
+                            </div>
+
+                            <button class="contact-form-button">Send</button>
+                        </form>
+                    </div>
+                    <div class="social-links-container">
+                        <!-- mail -->
+                        <a
+                            href="mailto:vishwakarmavaibhav2002@gmail.com"
+                            target="_blank"
+                        >
+                            <svg
+                                class="social-links-icon mail"
+                                xmlns="http://www.w3.org/2000/svg"
+                                \
+                                viewBox="0 0 37 37"
+                            >
+                                <path
+                                    d="M8.4091 32.3819H2.52272C1.13102 32.3819 0 31.2551 0 29.8592V8.41626C0 5.29648 3.55704 3.51795 6.05454 5.38898L18.5 14.7229L30.9454 5.38898C33.4388 3.51795 37 5.29648 37 8.41626V29.8592C37 31.251 35.8732 32.3819 34.4772 32.3819H28.5908V18.0865L18.5 25.6547L8.40911 18.0865L8.4091 32.3819Z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- leetcode -->
+                        <a
+                            href="https://leetcode.com/u/vaibhav21v/"
+                            target="_blank"
+                        >
+                            <svg
+                                class="social-links-icon leetcode"
+                                viewBox="0 0 38 38"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M25.4948 28.389L21.2245 32.5167C20.4867 33.2561 19.4654 33.5649 18.3381 33.5649C17.2108 33.5649 16.1895 33.2561 15.4501 32.5167L8.59109 25.6086C7.85167 24.8692 7.47959 23.7878 7.47959 22.6589C7.47959 21.53 7.85167 20.5103 8.59109 19.7709L15.4295 12.8359C16.1689 12.0965 17.2108 11.8146 18.3381 11.8146C19.4654 11.8146 20.4867 12.1234 21.2245 12.8628L25.4948 16.989C26.3086 17.8044 27.656 17.7759 28.5031 16.9288C29.3502 16.0801 29.3787 14.7327 28.5648 13.9189L24.4339 9.74522C23.3673 8.69081 22.0259 7.9573 20.5627 7.62831L24.4688 3.66522C25.2858 2.85139 25.2573 1.50239 24.4102 0.655308C23.5631 -0.191775 22.2141 -0.218692 21.3987 0.595141L5.407 16.5884C3.85375 18.1432 3.0415 20.2886 3.0415 22.6605C3.0415 25.0323 3.85375 27.2442 5.407 28.7959L12.2898 35.7008C13.843 37.2509 15.99 37.9998 18.3603 37.9998C20.7305 37.9998 22.8775 37.1891 24.4323 35.6343L28.5633 31.4591C29.3771 30.6452 29.3486 29.2978 28.5015 28.4507C27.6544 27.6036 26.307 27.5751 25.4948 28.389ZM32.9507 20.599H16.8878C15.7763 20.599 14.8769 21.5553 14.8769 22.7301C14.8769 23.905 15.7763 24.8613 16.8878 24.8613H32.9507C34.0606 24.8613 34.9615 23.905 34.9615 22.7301C34.9615 21.5553 34.0606 20.599 32.9507 20.599Z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- github -->
+                        <a href="https://github.com/vaibhav67v" target="_blank">
+                            <svg
+                                class="social-links-icon github"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 40 40"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M20.0138 3.61133C10.7899 3.61133 3.33325 11.1229 3.33325 20.4158C3.33325 27.8439 8.11095 34.1318 14.7389 36.3573C15.5676 36.5246 15.8711 35.9958 15.8711 35.5508C15.8711 35.1613 15.8438 33.8259 15.8438 32.4346C11.2037 33.4363 10.2374 30.4314 10.2374 30.4314C9.49172 28.4838 8.38683 27.9833 8.38683 27.9833C6.86812 26.9538 8.49745 26.9538 8.49745 26.9538C10.1821 27.0651 11.0661 28.6788 11.0661 28.6788C12.5571 31.2381 14.9598 30.5149 15.9264 30.0698C16.0643 28.9848 16.5065 28.2336 16.9759 27.8163C13.2752 27.4268 9.38144 25.9801 9.38144 19.5253C9.38144 17.6889 10.0438 16.1867 11.0934 15.0183C10.9278 14.6011 10.3477 12.8758 11.2593 10.5667C11.2593 10.5667 12.6677 10.1215 15.8434 12.2916C17.2031 11.9238 18.6053 11.7367 20.0138 11.7351C21.4221 11.7351 22.8579 11.93 24.1836 12.2916C27.3598 10.1215 28.7681 10.5667 28.7681 10.5667C29.6798 12.8758 29.0993 14.6011 28.9338 15.0183C30.0109 16.1867 30.6459 17.6889 30.6459 19.5253C30.6459 25.9801 26.7523 27.3988 23.0238 27.8163C23.6316 28.3448 24.1559 29.3463 24.1559 30.9323C24.1559 33.1858 24.1288 34.9943 24.1288 35.5504C24.1288 35.9958 24.4326 36.5246 25.2609 36.3576C31.8888 34.1314 36.6666 27.8439 36.6666 20.4158C36.6938 11.1229 29.2099 3.61133 20.0138 3.61133Z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- linkedin -->
+                        <a
+                            href="https://www.linkedin.com/in/vaibhav67v"
+                            target="_blank"
+                        >
+                            <svg
+                                class="social-links-icon linkedin"
+                                viewBox="0 0 34 34"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M34 2.5V31.5001C34 32.1631 33.7367 32.7989 33.2677 33.2677C32.7989 33.7367 32.1631 34 31.5001 34H2.5C1.83696 34 1.20107 33.7367 0.732228 33.2677C0.263387 32.7989 0 32.1631 0 31.5001V2.5C0 1.83696 0.263387 1.20107 0.732228 0.732228C1.20107 0.263387 1.83696 0 2.5 0H31.5001C32.1631 0 32.7989 0.263387 33.2677 0.732228C33.7367 1.20107 34 1.83696 34 2.5ZM10 13H5V28.9999H10V13ZM10.45 7.5C10.4526 7.12179 10.3807 6.74677 10.2384 6.39634C10.0961 6.04592 9.8862 5.72694 9.62064 5.45766C9.35506 5.18836 9.03903 4.97401 8.69061 4.82687C8.3422 4.6797 7.9682 4.60262 7.59001 4.59999H7.5C6.73087 4.59999 5.99324 4.90554 5.44939 5.44939C4.90554 5.99324 4.59999 6.73087 4.59999 7.5C4.59999 8.26912 4.90554 9.00675 5.44939 9.55062C5.99324 10.0945 6.73087 10.4 7.5 10.4C7.87823 10.4093 8.2546 10.344 8.60759 10.2078C8.96057 10.0716 9.28327 9.86718 9.55721 9.60623C9.83117 9.34526 10.051 9.03289 10.2042 8.68694C10.3574 8.34099 10.4409 7.96824 10.45 7.59001V7.5ZM28.9999 19.2801C28.9999 14.47 25.9399 12.6 22.8999 12.6C21.9047 12.5502 20.9136 12.7622 20.0258 13.2149C19.1378 13.6676 18.3842 14.3452 17.84 15.1801H17.7V13H13V28.9999H18V20.4899C17.9276 19.6184 18.2023 18.7535 18.764 18.0833C19.3258 17.4129 20.1293 16.9913 20.9999 16.9101H21.1899C22.78 16.9101 23.96 17.9101 23.96 20.43V28.9999H28.9601L28.9999 19.2801Z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- instagram -->
+                        <a
+                            href="https://www.instagram.com/vaibhav_v2.5/"
+                            target="_blank"
+                        >
+                            <svg
+                                class="social-links-icon insta"
+                                viewBox="0 0 35 35"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0_27_20)">
+                                    <path
+                                        d="M26.8264 10.2407C25.6675 10.243 24.7251 9.30455 24.7229 8.14558C24.7206 6.98662 25.659 6.04426 26.8185 6.042C27.9779 6.03972 28.9203 6.97867 28.9226 8.13765C28.9244 9.29662 27.9859 10.2384 26.8264 10.2407Z"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M17.5167 26.4849C12.5549 26.4946 8.52405 22.4802 8.51442 17.5172C8.50477 12.5553 12.5203 8.52382 17.4822 8.51418C22.445 8.50454 26.4764 12.5212 26.486 17.4825C26.4957 22.4456 22.4791 26.4753 17.5167 26.4849ZM17.4883 11.6673C14.2678 11.673 11.6607 14.2897 11.6664 17.5109C11.6726 20.7327 14.2899 23.3392 17.5104 23.3329C20.7322 23.3268 23.3393 20.7105 23.333 17.4888C23.3267 14.267 20.7094 11.6611 17.4883 11.6673Z"
+                                    />
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M6.00717 0.942782C7.1185 0.507319 8.39027 0.20907 10.2523 0.121185C12.1189 0.0316059 12.7148 0.0111869 17.4663 0.00211841C22.2189 -0.00695009 22.8148 0.0111834 24.6814 0.0939654C26.544 0.174479 27.8164 0.468196 28.93 0.899127C30.0821 1.34309 31.0596 1.94072 32.0337 2.91088C33.0078 3.88216 33.6077 4.85628 34.0573 6.00673C34.4922 7.1192 34.7904 8.38988 34.879 10.2531C34.9673 12.1191 34.9889 12.7144 34.998 17.4666C35.007 22.2181 34.9878 22.8146 34.9061 24.6823C34.825 26.5437 34.5319 27.8167 34.1009 28.9297C33.6559 30.0819 33.0594 31.0594 32.0892 32.0336C31.1191 33.0082 30.1439 33.6076 28.9934 34.0578C27.881 34.4921 26.6104 34.7903 24.7482 34.8794C22.8817 34.9678 22.2858 34.9888 17.5327 34.9978C12.7817 35.007 12.1858 34.9888 10.3192 34.9065C8.45661 34.825 7.18371 34.5317 6.07068 34.1014C4.91854 33.6557 3.94103 33.0598 2.96692 32.0892C1.99224 31.1184 1.39181 30.1437 0.942751 28.9933C0.507293 27.8813 0.210156 26.6101 0.121148 24.7486C0.0321357 22.8814 0.0111636 22.2849 0.00209863 17.5334C-0.00700137 12.7813 0.0117201 12.186 0.0933577 10.3194C0.175583 8.45622 0.467596 7.18384 0.898523 6.06967C1.3436 4.91807 1.94009 3.94112 2.91137 2.96644C3.8815 1.99232 4.85673 1.39127 6.00717 0.942782ZM7.20641 31.1615C7.82387 31.3991 8.75034 31.6826 10.4565 31.7568C12.3026 31.8367 12.8554 31.8544 17.527 31.8453C22.2002 31.8367 22.7531 31.8169 24.5986 31.7303C26.3029 31.649 27.2294 31.3622 27.8453 31.1219C28.6622 30.8026 29.2441 30.421 29.8553 29.8092C30.4665 29.1951 30.8446 28.6116 31.1611 27.7945C31.3992 27.1766 31.6821 26.2494 31.7564 24.5433C31.8375 22.6984 31.8545 22.1449 31.8453 17.4721C31.8369 12.8006 31.817 12.2472 31.7293 10.4016C31.6486 8.69661 31.3623 7.77012 31.1214 7.15492C30.8022 6.33674 30.4217 5.75611 29.8082 5.14431C29.1947 4.53251 28.6112 4.15545 27.7931 3.83906C27.1768 3.60035 26.2491 3.31797 24.5442 3.24371C22.6979 3.16261 22.1446 3.14616 17.472 3.15525C12.8004 3.16432 12.2476 3.18302 10.402 3.27036C8.69648 3.35142 7.77112 3.63777 7.15422 3.87876C6.33773 4.19797 5.75598 4.5773 5.14421 5.19137C4.53354 5.80544 4.15535 6.38776 3.83898 7.20651C3.60198 7.82343 3.31675 8.75105 3.24363 10.4561C3.1631 12.3022 3.14611 12.8556 3.15518 17.5273C3.16369 22.1999 3.18351 22.7534 3.27028 24.5979C3.35021 26.304 3.6388 27.2293 3.87867 27.8467C4.19789 28.6627 4.57835 29.2444 5.19127 29.8563C5.80535 30.4657 6.38878 30.8451 7.20641 31.1615Z"
+                                    />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_27_20">
+                                        <rect width="35" height="35" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="copyright-msg">
+                    &copy; 2025 Vaibhav Vishwakarma. All rights reserved.
+                </div>
+                <div class="version-info">version 1.</div>
+            </footer>
         </div>
-        <div class="version-info">
-          version 1.0
-        </div>
-      </footer>
-    </div>
-  </body>
+    </body>
 </html>
